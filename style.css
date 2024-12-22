@@ -110,6 +110,28 @@ body {
   .navbar-toggler {
     background-color: rgb(255, 253, 253);
   }
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .card {
+    margin-bottom: 20px;
+  }
+  
+  .card-img-top {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+  }
+  
+  .form-control {
+    width: 100%;
+  }
+  
+  
+
+
   .c1{transition: background 0.3s ease, tansform 0.3sec ease;}
   .c1:hover{transform:translateY(-2px);}
 
