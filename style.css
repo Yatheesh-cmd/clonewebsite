@@ -111,24 +111,23 @@ body {
     background-color: rgb(255, 253, 253);
   }
   img {
-    max-width: 100%;
-    height: auto;
+    max-width: 100% !important;
+    height: auto !important;
   }
   
   .card {
-    margin-bottom: 20px;
+    margin-bottom: 20px !important;
   }
   
   .card-img-top {
-    width: 100%;
-    height: 150px;
-    object-fit: cover;
+    width: 100% !important;
+    height: 150px !important;
+    object-fit: cover !important;
   }
   
   .form-control {
-    width: 100%;
+    width: 100% !important;
   }
-  
   
 
 
