@@ -8,7 +8,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Travel With Us</title>
+  <title>Y-Travel</title>
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
   <link rel="stylesheet" href="./style.css">
@@ -26,6 +26,7 @@
           <li class="nav-item"><a class="nav-link " href="#home" style="border-radius: 4px; background: linear-gradient(to right,black,red,brown,white);">Home</a></li>
           <li class="nav-item"><a class="nav-link" href="#flights" >Flights</a></li>
           <li class="nav-item"><a class="nav-link" href="#hotels">Packages</a></li>
+          <li class="nav-item"><a class="nav-link" href="#packages1">Exclusive</a></li>
           <li class="nav-item"><a class="nav-link" href="#blog" >Blog</a></li>
           <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
         </ul>
@@ -229,67 +230,189 @@
       </div>
     </section>
   
-    
-    <section id="packages" class="container my-5 py-5">
-      <div style="border: 2px solid rgb(201, 199, 199); border-radius: 10px; padding: 20px;">
-        <h2 class="text-center mb-4">Our Exclusive Packages</h2>
-        <p class="text-center mb-4">Luxury Travel Deals</p>
-        <div class="row justify-content-center">
-          <div class="col-md-4">
-            <div class="card shadow c3">
-              <img src="./package.jpg" class="card-img-top" alt="Package" style="height: 200px; width:400px; object-fit: cover;">
-              <div class="card-body text-center">
-                <h5 class="card-title">Europe Tour Package</h5>
-                <p class="card-text">Discover Europe with our all-inclusive package.</p>
-                <p>offer:<span style="color:red;">20 percent</span></p>
-                <p>
-                  <i class="fas fa-star text-warning"></i>
-                  <i class="fas fa-star text-warning"></i>
-                  <i class="fas fa-star text-warning"></i>
-                  <i class="fas fa-star text-warning"></i>
-                  <i class="fas fa-star-half-alt text-warning"></i>
-                </p>
-                <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#packageModal2">Explore More</button>
+       <section id="packages1" class="container my-5 py-5">
+        <div class="row" style="border: 2px solid rgb(201, 199, 199); border-radius: 10px; padding: 20px;">
+          <h2 class="text-center mb-4">Our Exclusive Packages</h2>
+          <p class="text-center mb-4">Luxury Travel Deals</p>
+      
+          <!-- Europe Section -->
+          <div class="col-md-6">
+            <div class="mb-4">
+              <div class="card shadow c3">
+                <img src="./package.jpg" class="card-img-top" alt="Europe Package" style="height: 200px; width:100%; object-fit: cover;">
+                <div class="card-body text-center">
+                  <h5 class="card-title">Europe Tour Package</h5>
+                  <p class="card-text">Discover Europe with our all-inclusive package.</p>
+                  <p>Offer: <span style="color:red;">20 percent</span></p>
+                  <p>
+                    <i class="fas fa-star text-warning"></i>
+                    <i class="fas fa-star text-warning"></i>
+                    <i class="fas fa-star text-warning"></i>
+                    <i class="fas fa-star text-warning"></i>
+                    <i class="far fa-star"></i>
+                  </p>
+                  <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#packageModal1">Explore More</button>
+                </div>
+              </div>
+            </div>
+      
+            <div>
+              <div class="card shadow c3">
+                <div class="card-body text-center">
+                  <h5 class="card-title">Explore Popular Destinations in Europe</h5>
+                  <ul>
+                    <li>Paris - The City of Light</li>
+                    <li>Rome - The Eternal City</li>
+                    <li>Barcelona - The Vibrant Catalonia</li>
+                  </ul>
+                  <p>Embark on guided tours to iconic landmarks and experience the rich culture of Europe.</p>
+                  <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modalEuropeDestinations">Explore Destinations</button>
+                </div>
+              </div>
+            </div>
+          </div>
+      
+          <!-- Asia Section -->
+          <div class="col-md-6">
+            <div class="mb-4">
+              <div class="card shadow c3">
+                <img src="./asian3.1.jpg" class="card-img-top" alt="Asia Package" style="height: 200px; width:100%; object-fit: cover;">
+                <div class="card-body text-center">
+                  <h5 class="card-title">Asia Tour Package</h5>
+                  <p class="card-text">Discover Asia with our all-inclusive package.</p>
+                  <p>Offer: <span style="color:red;">15 percent</span></p>
+                  <p>
+                    <i class="fas fa-star text-warning"></i>
+                    <i class="fas fa-star text-warning"></i>
+                    <i class="fas fa-star text-warning"></i>
+                    <i class="fas fa-star text-warning"></i>
+                    <i class="fas fa-star-half-alt text-warning"></i>
+                  </p>
+                  <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#packageModal2">Explore More</button>
+                </div>
+              </div>
+            </div>
+      
+            <div>
+              <div class="card shadow c3">
+                <div class="card-body text-center">
+                  <h5 class="card-title">Explore Popular Destinations in Asia</h5>
+                  <ul>
+                    <li>Taj Mahal- The Heart of India</li>
+                    <li>Burj Khalifa-The Skyscraper in Dubai</li>
+                    <li>GreatWall- The GrateWall of China</li>          
+                  </ul>
+                  <p>Embark on guided tours to iconic landmarks and experience the vibrant cultures of Asia.</p>
+                  <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modalAsiaDestinations">Explore Destinations</button>
+                </div>
               </div>
             </div>
           </div>
         </div>
-      </div>
-    </section>
-    
-    
-      <div class="modal fade" id="packageModal2" tabindex="-1" aria-labelledby="packageModalLabel2" aria-hidden="true">
-      <div class="modal-dialog">
-      <div class="modal-content">
-      <div class="modal-header">
-      <h5 class="modal-title" id="packageModalLabel2">Luxury Europe Tour Package</h5>
-      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-      </div>
-      <div class="modal-body">
-      <h5>Details About Our Luxury Europe Tour Package</h5>
-      <p>Enjoy exclusive travel deals for luxury resorts and guided tours at discounted prices.</p>
-      <ul>
-      <li>5-star hotel accommodations</li>
-      <li>Round trip airfare</li>
-      <li>Tour guide for major landmarks</li>
-      </ul>
-      </div>
-      <div class="modal-footer">
-      <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-      <button type="button" class="btn btn-primary">Book Now</button>
-      </div>
-      </div>
-      </div>
+      </section>
+      
+      <!-- Europe Modal -->
+      <div class="modal fade" id="packageModal1" tabindex="-1" aria-labelledby="packageModalLabel1" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="packageModalLabel1">Luxury Europe Tour Package</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <h5>Details About Our Luxury Europe Tour Package</h5>
+              <p>Enjoy exclusive travel deals for luxury resorts and guided tours at discounted prices.</p>
+              <ul>
+                <li>5-star hotel accommodations</li>
+                <li>Round trip airfare</li>
+                <li>Tour guide for major landmarks</li>
+              </ul>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+              <button type="button" class="btn btn-primary">Book Now</button>
+            </div>
+          </div>
+        </div>
       </div>
       
-  
+      <div class="modal fade" id="modalEuropeDestinations" tabindex="-1" aria-labelledby="modalEuropeDestinationsLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="modalEuropeDestinationsLabel">Europe Destinations</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <p>Explore our exclusive deals for top destinations in Europe:</p>
+              <ul>
+                <li>Paris: Guided tours and luxury accommodations</li>
+                <li>Rome: Ancient history and modern luxury</li>
+                <li>Barcelona: Beach vibes and vibrant culture</li>
+              </ul>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <!-- Asia Modal -->
+      <div class="modal fade" id="packageModal2" tabindex="-1" aria-labelledby="packageModalLabel2" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="packageModalLabel2">Luxury Asia Tour Package</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <h5>Details About Our Luxury Asia Tour Package</h5>
+              <p>Experience the vibrant cultures and stunning landscapes of Asia with our premium package.</p>
+              <ul>
+                <li>5-star hotel accommodations</li>
+                <li>touriest centers and Beaches</li>
+                <li>Round trip airfare</li>
+                <li>Local cultural experiences</li>
+              </ul>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+              <button type="button" class="btn btn-primary">Book Now</button>
+            </div>
+          </div>
+        </div>
+      </div>
+     <div class="modal fade" id="modalAsiaDestinations" tabindex="-1" aria-labelledby="modalAsiaDestinationsLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="modalAsiaDestinationsLabel">Asia Destinations</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <p>Explore our exclusive deals for top destinations in Asia:</p>
+        <ul>
+          <li>The Taj Mahal, a stunning white marble mausoleum in Agra, India.</li>
+          <li>The Burj Khalifa, located in Dubai, United Arab Emirates, Downtown Dubai, Sheikh Zayed Road. Exact coordinates: 25.1972° N, 55.2744° E.</li>
+          <li>The Great Wall of China is located in northern China, near Beijing.</li>
+        </ul>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+      
+      
   
     <section id="blog" class="container my-5">
       <h2 class="text-center mb-4">Travel Tips & Stories</h2>
       <div class="row">
         <div class="col-md-4">
           <div class="card shadow">
-            <img src="blog1.jpg" class="card-img-top" alt="Blog">
+            <!-- <img src="blog1.jpg" class="card-img-top" alt="Blog"> -->
             <div class="card-body">
               <h5 class="card-title">Top 10 Beaches in the World</h5>
               <p class="card-text">Discover the most beautiful beaches for your next trip.</p>
@@ -299,7 +422,6 @@
         </div>
         <div class="col-md-4">
           <div class="card shadow">
-            <img src="blog2.jpg" class="card-img-top" alt="Blog">
             <div class="card-body">
               <h5 class="card-title">Packing Tips for Travel</h5>
               <p class="card-text">Learn how to pack smartly and enjoyful  for your vacation.</p>

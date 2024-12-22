@@ -138,5 +138,5 @@ img {
 .c2:hover{transform:translateX(-1px);}
 
 .c3{transition: background 0.3s ease, tansform 0.3sec ease;}
-.c3:hover{transform:translateX(3px);}
+.c3:hover{transform:translateY(-4px);}
 
