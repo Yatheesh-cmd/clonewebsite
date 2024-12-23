@@ -13,9 +13,10 @@ body {
   z-index: 1000;
 }
 .navbar-brand {
-  color: #00d9ff;
+  color:black;
   font-weight: bold;
 }
+.navbar-brand:hover{color:rgb(15, 255, 195);}
 .navbar-nav .nav-link {
   color: #fff;
   margin-right: 29px;
